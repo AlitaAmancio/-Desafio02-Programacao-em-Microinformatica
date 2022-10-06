@@ -15,13 +15,17 @@ body {
 .header ul {
     list-style: none;
     text-align: center;
-  
 }
 
 .header ul li {
     display: inline-block;
     padding: 12px;
     color: white;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white
 }
 
 .corpo {
@@ -63,7 +67,14 @@ body {
 }
 
 .post h4 {
+    background-color: lightgrey;
     text-align: center;
+}
+
+.quadro {
+    float: right;
+    margin-top: -655px;
+    text-align: justify
 }
 
 .recent {
